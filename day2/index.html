@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+</head>
+<body>
+<!--<div id="vue_det">-->
+    <!--<h1>site : {{site}}</h1>-->
+    <!--<h1>name : {{name}}</h1>-->
+    <!--<h1>pwd : {{pwd}}</h1>-->
+    <!--<h1>url : {{url}}</h1>-->
+    <!--<h1>{{details()}}</h1>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+    <!--var vm = new Vue({-->
+        <!--el: '#vue_det',-->
+        <!--data: {-->
+            <!--site: "菜鸟教程",-->
+            <!--url: "www.runoob.com",-->
+            <!--alexa: "10000",-->
+            <!--name:"张三",-->
+            <!--pwd:"123"-->
+        <!--},-->
+        <!--methods: {-->
+            <!--details: function() {-->
+                <!--return  this.site + " - 学的不仅是技术，更是梦想！";-->
+            <!--}-->
+        <!--}-->
+    <!--})-->
+<!--</script>-->
+<!--<div id="app">-->
+    <!--<p>{{ message }}</p>-->
+<!--</div>-->
+<!--<script>-->
+    <!--new Vue({-->
+        <!--el: '#app',-->
+        <!--data: {-->
+            <!--message: '你好  菜鸟!'-->
+        <!--}-->
+    <!--})-->
+<!--// </script>-->
+<!--修改颜色-->
+<!--<style>-->
+    <!--.class1{-->
+        <!--background: yellow;-->
+        <!--color: #eee;-->
+    <!--}-->
+<!--</style>-->
+<!--<div id="app">-->
+    <!--<label for="r1">修改颜色</label><input type="checkbox" v-model="class1" id="r1">-->
+    <!--<br><br>-->
+    <!--<div v-bind:class="{'class1': class1}">-->
+     <!--放大镜看好地方即可更多发挥比较多-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<script>-->
+    <!--new Vue({-->
+        <!--el: '#app',-->
+        <!--data:{-->
+            <!--class1: false-->
+        <!--}-->
+    <!--});-->
+<!--</script>-->
+<!--双向绑定-->
+<!--<div id="app">-->
+    <!--<p>{{ message }}</p>-->
+    <!--<input v-model="message">-->
+<!--</div>-->
+
+<!--<script>-->
+    <!--new Vue({-->
+        <!--el: '#app',-->
+        <!--data: {-->
+            <!--message: 'Runoob!'-->
+        <!--}-->
+    <!--})-->
+<!--</script>-->
+<!--<div id="app">-->
+    <!--<ol>-->
+        <!--<li v-for="site in sites">-->
+            <!--{{ site.name }}-->
+        <!--</li>-->
+    <!--</ol>-->
+<!--</div>-->
+<!--​-->
+<!--<script>-->
+    <!--new Vue({-->
+        <!--el: '#app',-->
+        <!--data: {-->
+            <!--sites: [-->
+                <!--{ name: '张三' },-->
+                <!--{ name: '李四' },-->
+                <!--{ name: '王五' }-->
+            <!--]-->
+        <!--}-->
+    <!--})-->
+<!--</script>-->
+<center>
+<div id="app">
+
+        <div v-for="n in 9">
+            <b v-for="m in n">
+                &nbsp;&nbsp;{{ m }}* {{ n }} =  {{ m * n }}
+        </b>
+        </div>
+
+</div>
+
+<script>
+    new Vue({
+        el: '#app'
+    })
+</script>
+</center>
+</body>
+</html>
+

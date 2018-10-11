@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        div
+        {
+            border:2px solid #a1a1a1;
+            padding:10px 40px;
+            width:100px;
+            height: 100px;
+            border-radius:90px;
+            box-shadow: 10px 10px 5px #888888;
+            background: url("1.gif");
+            text-shadow: 5px 5px 5px #FF0000;
+            transform:rotateX(360deg);
+            -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+            animation:myfirst 5s;
+            position:relative;
+            float: left;
+            animation-iteration-count:infinite;
+        }
+        div:hover
+        {
+            width:100px;
+            height:100px;
+            transform:rotate(180deg);
+        }
+        @keyframes myfirst
+        {
+            from {background:red;}
+            to {background:yellow;}
+        }
+        @keyframes myfirst
+        {
+            from {background:red;}
+            to {background:blue;}
+        }
+        @keyframes myfirst
+        {
+            0%   {background:red; left:0px; top:0px;}
+            25%  {background:yellow; left:200px; top:0px;}
+            50%  {background:blue; left:200px; top:200px;}
+            75%  {background:green; left:0px; top:200px;}
+            100% {background:red; left:0px; top:0px;}
+        }
+    </style>
+</head>
+<body>
+​<div>​<img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div>​<img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+​<div><img src="5.gif" alt="" style="height: 100px;width:100px"></div>
+
+</body>
+</html>

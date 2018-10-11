@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/behat/gherkin" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/bower/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/bower/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/bower/jquery.inputmask" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/bower/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/bower/typeahead.js" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/bower/yii2-pjax" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/cebe/markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/codeception/base" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/codeception/specify" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/codeception/verify" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpspec/php-diff" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/stecman/symfony-console-completion" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/browser-kit" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-faker" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-gii" />
+      <excludeFolder url="file://$MODULE_DIR$/basic/vendor/yiisoft/yii2-swiftmailer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

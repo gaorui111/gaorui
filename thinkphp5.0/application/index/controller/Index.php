@@ -42,27 +42,28 @@ class Index extends Controller
                $this->error('删除失败');
            }
        }
+    //修改页面
     public function update()
     {
         $request = Request::instance();
         $id = $request->get('id');
         $goods = new Goods;
         $res = $goods->findData($id);
-        return view('update', ['res' => $res]);
+        return view('update',['res' =>$res]);
     }
     //修改数据
-                 public function save()
-                {
-                $id = $_POST['id'];
-                $request = Request::instance();
-                $data = $request->post();
-                // var_dump($data);die;
-                $goods = new Goods;
-                $result = $goods->updateData($data,$id);
-                if ($result){
-                    $this->success('修改成功', 'index/show');
-                }else {
-                  $this->error('修改失败');
-                }
-                }
+    public function save()
+    {
+        $id = $_POST['id'];
+        $request = Request::instance();
+        $data = $request->post();
+        // var_dump($data);die;
+        $goods = new Goods;
+        $result = $goods->updateData($data,$id);
+        if ($result) {
+            $this->success('修改成功', 'index/show');
+        } else {
+            $this->error('修改失败');
+        }
+    }
 }

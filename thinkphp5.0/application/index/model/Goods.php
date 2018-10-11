@@ -30,8 +30,12 @@ class Goods extends Model
         return Db::table($this->table)->where('id','=',$id)->find();
     }
 //修改
-    function updData($data,$id)
+    function updateData($data,$id)
     {
         return Db::table($this->table)->where('id','=',$id)->update($data);
     }
 }
+
+
+
+
